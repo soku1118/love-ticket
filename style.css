@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#ffd6e7,#fff5fa);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:20px;
+}
+
+.ticket{
+    width:100%;
+    max-width:380px;
+    background:white;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+.top{
+    background:#ff6b9d;
+    color:white;
+    text-align:center;
+    padding:35px 20px;
+}
+
+.top h1{
+    font-size:30px;
+    margin-bottom:8px;
+}
+
+.top p{
+    opacity:.9;
+}
+
+.center{
+    padding:35px 25px;
+    text-align:center;
+}
+
+.center h2{
+    margin-bottom:18px;
+    color:#444;
+}
+
+.message{
+    color:#666;
+    line-height:1.7;
+    margin-bottom:30px;
+}
+
+button{
+    width:100%;
+    padding:18px;
+    border:none;
+    border-radius:15px;
+    background:#ff4f87;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.25s;
+}
+
+button:hover{
+    transform:scale(1.03);
+}
+
+#status{
+    margin-top:25px;
+    font-weight:bold;
+    color:#ff4f87;
+}
